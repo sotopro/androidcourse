@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "45838065702",
+    "project_id": "androidcourse-b7498",
+    "storage_bucket": "androidcourse-b7498.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45838065702:android:b760e404e5e4f54b6146e7",
+        "android_client_info": {
+          "package_name": "com.danielsoto.androidcourse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45838065702-jtq5bg2q0615keggv03oun4ult8bh0h5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEIOF2oRVEr4mbgtwARE6JOirUJB5nzEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45838065702-jtq5bg2q0615keggv03oun4ult8bh0h5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
