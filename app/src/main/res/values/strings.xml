@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">androidcourse</string>
+    <string name="username_hint">Enter username</string>
+    <string name="password_hint">Enter password</string>
+    <string name="confirm_password_hint">Confirm password</string>
+    <string name="register_button">Register</string>
+    <string name="link_login_text">Already user? login here</string>
 </resources>
