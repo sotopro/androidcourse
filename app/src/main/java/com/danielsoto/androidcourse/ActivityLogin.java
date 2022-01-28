@@ -65,10 +65,10 @@ public class ActivityLogin extends AppCompatActivity {
                                 Intent i = new Intent(ActivityLogin.this, MainActivity.class);
                                 startActivity(i);
                                 finish();
+                            } else {
+                                loadingBl.setVisibility(View.GONE);
+                                Toast.makeText(ActivityLogin.this, "Login Failure", Toast.LENGTH_LONG).show();
                             }
-                        } else {
-                            loadingBl.setVisibility(View.GONE);
-                            Toast.makeText(ActivityLogin.this, "Login Failure", Toast.LENGTH_LONG).show();
                         }
                     });
                 }
