@@ -17,6 +17,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class ActivityLogin extends AppCompatActivity {
 
@@ -74,6 +75,15 @@ public class ActivityLogin extends AppCompatActivity {
                 }
             }
         });
-
+    }
+    @Override
+    protected void onStart(){
+        super.onStart();
+        FirebaseUser user = mAuth.getCurrentUser();
+        if (user != null) {
+            Intent i = new Intent(ActivityLogin.this, MainActivity.class);
+            startActivity(i);
+            this.finish();
+        }
     }
 }
